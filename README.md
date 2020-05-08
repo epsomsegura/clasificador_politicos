@@ -229,7 +229,7 @@ También se hace uso de otro dataset categorizado por rangos de edad, género y 
 4. language: Define el idioma utilizado de los usuarios que escriben tweets
 5. text: Es un arreglo de texto de 1000 tweets escritos por los usuarios
 
-Un ejemplo de esta estructura de datos puede ser visto haciendo clic *[aquí](https://github.com/oscarch01/Clasificador-de-Polaridad-Para-Pol-ticos/blob/master/training_corpus.json)*.
+Un ejemplo de esta estructura de datos puede ser visto haciendo clic *[aquí](https://github.com/epsomsegura/clasificador_politicos/blob/master/training_corpus.json)*.
 
 ## Entrenamiento
 Para el proceso de entrenamiento se lleva a cabo la siguiente lista de tareas:
@@ -249,3 +249,7 @@ La evaluación de la regresión logística se lleva a cabo mediante la función 
 De acuerdo a los resultados obtenidos mediante la predicción basada en regresión logistica y los datasets utilizados, se logra obtener un porcentaje de predicción del 71 por ciento. Posteriormente se hace una prueba con los datos obtenidos desde la API de Twitter, obteniendo resultados similares a los del dataset de entrenamiento.
 
 El algoritmo es capaz de reconocer el género del usuario que escribe un tweet relacionado con un tema en específico, sin embargo, al no contar con un dataset clasificado para obtener la polaridad de un tweet resulta complejo obtener resultados relacionados con este tema. Se requiere etiquetar de manera manual el dataset definiendo una polaridad para cada tweet, también es posible solucionar este problema haciendo uso de palabras clave en el tweet, es posible hacer uso de un algoritmo complementario de similitud coseno que apoye a la identificación de palabras que den significado positivo o negativo por cada tweet.
+
+#### Autor
+    Epsom Enrique Segura Jaramillo
+    Oscar Chacón Vázquez
